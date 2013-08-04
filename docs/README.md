@@ -15,9 +15,10 @@ pip install -r docs/doc-requirements
 You can make these manually, but that's no fun. Keep your docstrings chock-full with helpful usage tips, and let [Autodoc](http://sphinx-doc.org/tutorial.html#autodoc) take care of you
 
 In either case, use the reStructuredText & discover some handy Sphinx directives - here are the docs:
-[reStructuredText Primer](http://sphinx-doc.org/rest.html)
-[Sphinx Markup Constructs](http://sphinx-doc.org/markup/index.html)
-[Sphinx Domains](http://sphinx-doc.org/domains.html)
+
+  * [reStructuredText Primer](http://sphinx-doc.org/rest.html)
+  * [Sphinx Markup Constructs](http://sphinx-doc.org/markup/index.html)
+  * [Sphinx Domains](http://sphinx-doc.org/domains.html)
 
 All subsequent commands issue with the working directory docs/
 ```sh
