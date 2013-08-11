@@ -43,7 +43,7 @@ Follow the **readthedocs directions** first
 ### GitHub Pages
   * Go to your Github project settings
   * Click on "Automatic Page Generator"
-  * Edit the content in markdown (could just load REAMDE.md)
+  * Edit the content in markdown (could just load README.md)
   * Continue to Layouts & choose a layout
   * Publish
 
