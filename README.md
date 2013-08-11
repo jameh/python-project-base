@@ -3,7 +3,7 @@ python-project-base
 
 Just add water.
 
-This project is in the Public Domain, see LICENSE
+This project is in the Public Domain; see LICENSE
 
 ## Directions
 
