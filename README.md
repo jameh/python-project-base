@@ -49,4 +49,34 @@ Follow the **readthedocs directions** first
 
 
 ## Pip directions
-http://pythonhosted.org/distribute/
+Use the current setup.py as a template, remove junk you don't need.
+
+Refer to [the docs](http://pythonhosted.org/distribute/)
+
+### Important kwargs
+  * `name`, `version`, `description`
+  * `author`, `author_email`
+  * `license`
+  * `url` - point it to github code, github page or readthedocs page
+  * `install_requires`
+  * `scripts` - point it to installable command-line scripts
+
+then make sure it installs:
+```
+python setup.py install
+```
+
+then distribute to [PyPI](https://pypi.python.org/pypi):
+
+if it is your first time:
+```
+setup.py register
+```
+
+if it is your next time:
+```
+setup.py sdist upload
+```
+
+### Versioning:
+Make sure you push your version tags to git, and that they're consistent with your setup.py `version` kwarg. If you're distributing a package with an `__init__.py`, make sure to update the version in there as well.
