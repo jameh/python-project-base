@@ -7,7 +7,7 @@ This project is in the Public Domain, see LICENSE
 
 ## Directions
 
-  * Code your python in src/
+  * Code your python in / (flat is better than nested)
   * Keep good docstrings - see docs/README.md for links
     * host the docs on https://readthedocs.org
   * Keep track of your python's dependencies in requirements.txt
