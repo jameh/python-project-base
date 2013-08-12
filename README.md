@@ -16,6 +16,9 @@ This project is in the Public Domain; see LICENSE
     * `pip freeze >> requirements.txt`
   * Write nose tests in `test.py`
     * test with `nosetests --with-doctest --with-coverage`
+  * Integrate with [Travis CI](travis-ci.org)
+    * Use Github Travis CI hook
+    * Include build status in README.md: [![Build Status](https://travis-ci.org/[jameh]/[python-project-base].png)](https://travis-ci.org/[jameh]/[python-project-base])
   * Protect your code with a LICENSE, and refer to it in your source files
     * Go here for the know-how: http://opensource.org/licenses/
   * Replace this README with your own
