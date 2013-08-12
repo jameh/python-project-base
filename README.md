@@ -10,9 +10,12 @@ This project is in the Public Domain; see LICENSE
   * Code your python in / (flat is better than nested)
   * Keep good docstrings - see docs/README.md for links
     * host the docs on https://readthedocs.org
+    * include well-formatted doctests
   * Keep track of your python's dependencies in requirements.txt
     * [virtualenv](https://github.com/pypa/virtualenv)
     * `pip freeze >> requirements.txt`
+  * Write nose tests in `test.py`
+    * test with `nosetests --with-doctest --with-coverage`
   * Protect your code with a LICENSE, and refer to it in your source files
     * Go here for the know-how: http://opensource.org/licenses/
   * Replace this README with your own

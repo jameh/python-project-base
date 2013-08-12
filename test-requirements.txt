@@ -1,0 +1,4 @@
+# List of testing requirements
+coverage==3.6
+docutils==0.11
+nose==1.3.0
