@@ -26,7 +26,7 @@ This project is in the Public Domain; see LICENSE
 
 ## readthedocs directions
 
-Follow directions at [`docs/README.md`](/docs/README.md) up till **Use Sphinx to auto-generate your .rst files**, push to your git remote, then:
+Follow directions at [`docs/README.md`](docs/README.md) up till [**Use Sphinx to auto-generate your .rst files**](/docs/README.md#use-sphinx-to-auto-generate-your-.rst-files), push to your git remote, then:
 
   * [Sign up][0.1] / [Log in][0.2] to [readthedocs][0]
   * Create a project
@@ -41,7 +41,7 @@ Follow directions at [`docs/README.md`](/docs/README.md) up till **Use Sphinx to
 ## Github-specific directions
 
 #### readthedocs hook
-Follow the **readthedocs directions** first
+Follow the [**readthedocs directions**](#readthedocs-directions) first
   * Go to project settings on Github
   * Choose "Service Hooks" > "ReadTheDocs"
   * Check "Active", Click "Update Settings"
