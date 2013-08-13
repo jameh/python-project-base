@@ -34,7 +34,7 @@ Follow directions at [`docs/README.md`](/docs/README.md) up till **Use Sphinx to
     * Click [Import][0.4]
     * Fill the forms
       * Give it the same name as on your git repository
-      * Python configuration file: [`docs/conf.py`](/docs/conf.py)
+      * Python configuration file: `docs/conf.py`
       * Use virtualenv
       * Requirements file: [`docs/doc-requirements.txt`](/docs/doc-requirements.txt)
 
